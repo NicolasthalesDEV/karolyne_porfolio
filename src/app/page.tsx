@@ -13,7 +13,7 @@ export default function Home(): JSX.Element {
           <span className="text-primary">Karolyne Costa</span> – Product Designer | UX/UI
         </h1>
         <p className="mt-6 text-xl text-muted-foreground max-w-2xl">
-        Sou UX/UI Design com experiencia em product design, pesquisa e estratégia digital. Meu foco é criar produtos intuitivos e eficientes, alinhando as necessidades dos usuários aos objetivos do negócio. Acredito que o design vai além da estética – ele deve resolver problemas, otimizar fluxos e proporcionar experiências impactantes.
+        Sou UX/UI Designer com experiência em Product Design, pesquisa e estratégia digital. Meu foco é criar produtos intuitivos e eficientes, alinhando as necessidades dos usuários aos objetivos do negócio. Acredito que design vai além da estética — ele deve resolver problemas, otimizar fluxos e proporcionar experiências que realmente impactam as pessoas.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 mt-10">
           <Button asChild size="lg">
@@ -36,7 +36,7 @@ export default function Home(): JSX.Element {
             <div className="group rounded-lg overflow-hidden border bg-card text-card-foreground shadow transition-all hover:shadow-lg">
               <div className="aspect-video w-full overflow-hidden bg-muted">
                 <CustomImage
-                  src="/images/imagem7.png"
+                  src="/images/imagem12.png"
                   alt="iFrete Project Preview"
                   width={1280}
                   height={720}

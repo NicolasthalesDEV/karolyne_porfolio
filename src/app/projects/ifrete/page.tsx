@@ -8,14 +8,14 @@ export default function IFreteCaseStudy() {
       <div className="max-w-4xl mx-auto mb-16 text-center">
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 text-primary">iFrete</h1>
         <p className="text-xl text-muted-foreground mb-6">
-          O iFrete é um aplicativo de transporte sob demanda para móveis e itens volumosos, oferecendo uma alternativa acessível e conveniente aos serviços de mudança tradicionais. O objetivo era criar uma experiência intuitiva, permitindo que os usuários agendassem transportes de forma simples e eficiente, como em aplicativos de ride-sharing.
+        O iFrete é uma plataforma digital desenvolvida para simplificar o transporte de móveis e itens volumosos, oferecendo uma alternativa acessível e eficiente aos serviços tradicionais de frete. O projeto foi criado com foco na experiência do usuário, garantindo uma navegação intuitiva, transparência nos preços e um fluxo de agendamento rápido, inspirado na usabilidade de apps de ride-sharing.
         </p>
       </div>
 
       <div className="flex justify-center gap-4 my-4">
         <CustomImage src="/images/imagem9.png" alt="Imagem adicional 1" width={400} height={250} className="rounded-lg shadow-md" />
         <CustomImage src="/images/imagem10.png" alt="Imagem adicional 2" width={400} height={250} className="rounded-lg shadow-md" />
-        <CustomImage src="/images/imagem11.png" alt="Imagem adicional 2" width={400} height={250} className="rounded-lg shadow-md" />
+        <CustomImage src="/images/imagem13.png" alt="Imagem adicional 2" width={400} height={250} className="rounded-lg shadow-md" />
       </div>
 
       {/* Challenge and Research */}

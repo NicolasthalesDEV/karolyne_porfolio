@@ -9,16 +9,14 @@ export default function IFreteCaseStudy(): JSX.Element {
       <div className="max-w-4xl mx-auto mb-16 text-center">
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 text-primary">Verdano</h1>
         <p className="text-xl text-muted-foreground mb-6">
-          O Verdano é um e-commerce criado para uma padaria vegana, com o objetivo de tornar a
-          experiência de compra mais acessível e atrativa para quem busca produtos sustentáveis
-          e saborosos.
+        O Verdano é uma plataforma digital desenvolvida para otimizar a experiência de compra de produtos naturais e sustentáveis. O projeto teve como objetivo criar uma interface intuitiva, facilitando o acesso às informações dos produtos e garantindo uma jornada de compra fluida e eficiente. O design foi pensado para transmitir confiança e transparência, destacando a identidade visual da marca e tornando o processo de compra mais intuitivo.
         </p>
 
       </div>
 
       {/* Imagem maior */}
       <div className="flex justify-center my-8">
-        <CustomImage src="/images/imagem3.PNG" alt="Imagem adicional grande" width={800} height={500} className="rounded-lg shadow-md w-full max-w-4xl h-auto" />
+        <CustomImage src="/images/imagem14.png" alt="Imagem adicional grande" width={800} height={500} className="rounded-lg shadow-md w-full max-w-4xl h-auto" />
       </div>
 
       {/* Challenge and Research */}

@@ -1,5 +1,5 @@
-import Link from "next/link"
-import { Mail } from "lucide-react"
+import Link from "next/link";
+import { Mail, Linkedin } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -27,11 +27,13 @@ export default function Footer() {
           <h3 className="font-bold text-lg mb-4">Contato</h3>
           <div className="flex space-x-4">
             {[
-              { icon: Mail, label: "Email", url: "/contact" }
+              { icon: Mail, label: "Email", url: "/contact" },
+              { icon: Linkedin, label: "LinkedIn", url: "www.linkedin.com/in/karolyne-costa-3167a3208" }
             ].map(({ icon: Icon, label, url }) => (
               <Link 
                 key={label} 
-                href={url} 
+                href={url}
+                target="_blank"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 <Icon className="h-8 w-8"/>
@@ -40,6 +42,7 @@ export default function Footer() {
             ))}
           </div>
         </div>
+
       </div>
 
       {/* Copyright */}
