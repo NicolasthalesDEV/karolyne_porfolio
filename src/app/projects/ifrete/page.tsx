@@ -13,9 +13,8 @@ export default function IFreteCaseStudy() {
       </div>
 
       <div className="flex justify-center gap-4 my-4">
-        <CustomImage src="/images/imagem4.PNG" alt="Imagem adicional 1" width={400} height={250} className="rounded-lg shadow-md" />
-        <CustomImage src="/images/imagem5.PNG" alt="Imagem adicional 2" width={400} height={250} className="rounded-lg shadow-md" />
-        <CustomImage src="/images/imagem6.PNG" alt="Imagem adicional 2" width={400} height={250} className="rounded-lg shadow-md" />
+        <CustomImage src="/images/imagem9.png" alt="Imagem adicional 1" width={400} height={250} className="rounded-lg shadow-md" />
+        <CustomImage src="/images/imagem10.png" alt="Imagem adicional 2" width={400} height={250} className="rounded-lg shadow-md" />
       </div>
 
       {/* Challenge and Research */}
