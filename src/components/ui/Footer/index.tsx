@@ -26,20 +26,23 @@ export default function Footer() {
         <div>
           <h3 className="font-bold text-lg mb-4">Contato</h3>
           <div className="flex space-x-4">
-            {[
-              { icon: Mail, label: "Email", url: "/contact" },
-              { icon: Linkedin, label: "LinkedIn", url: "www.linkedin.com/in/karolyne-costa-3167a3208" }
-            ].map(({ icon: Icon, label, url }) => (
-              <Link 
-                key={label} 
-                href={url}
-                target="_blank"
-                className="text-muted-foreground hover:text-primary transition-colors"
-              >
-                <Icon className="h-8 w-8"/>
-                <span className="sr-only">{label}</span>
-              </Link>
-            ))}
+            <Link 
+            href="/contact"
+            className="text-muted-foreground hover:text-primary transition-colors"
+            >
+            <Mail className="h-8 w-8"/>
+            <span className="sr-only">Email</span>
+            </Link>
+
+            <a
+            href="https://www.linkedin.com/in/karolyne-costa-3167a3208"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-primary transition-colors"
+            >
+            <Linkedin className="h-8 w-8"/>
+            <span className="sr-only">LinkedIn</span>
+            </a>
           </div>
         </div>
 
