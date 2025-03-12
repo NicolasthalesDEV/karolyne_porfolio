@@ -10,7 +10,7 @@ export default function Footer() {
         <div>
           <h3 className="font-bold text-lg mb-4">Links Rápidos</h3>
           <nav className="flex flex-col space-y-2">
-            {["Home", "Projetos", "Sobre mim", "Contato"].map((item) => (
+            {["Projects", "About", "Contact"].map((item) => (
               <Link 
                 key={item} 
                 href={`/${item.toLowerCase()}`} 
@@ -27,7 +27,7 @@ export default function Footer() {
           <h3 className="font-bold text-lg mb-4">Contato</h3>
           <div className="flex space-x-4">
             {[
-              { icon: Mail, label: "Email", url: "#" }
+              { icon: Mail, label: "Email", url: "/contact" }
             ].map(({ icon: Icon, label, url }) => (
               <Link 
                 key={label} 
