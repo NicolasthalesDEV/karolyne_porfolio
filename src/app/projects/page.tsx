@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import CustomImage from '@/components/CustomImage';
 
 const projects = [
   {
@@ -17,7 +18,7 @@ const projects = [
   },
 ];
 
-export default function ProjectsPage() {
+export default function ProjectsPage(): JSX.Element {
   return (
     <main className="max-w-full mx-auto bg-gray-200 p-6 rounded-lg">
       {/* Header */}
@@ -36,10 +37,12 @@ export default function ProjectsPage() {
             className="group rounded-lg overflow-hidden border bg-card text-card-foreground shadow transition-all hover:shadow-lg"
           >
             <div className="aspect-video w-full overflow-hidden bg-muted">
-              <img
+              <CustomImage
                 src={project.image || "/placeholder.svg"}
                 alt={`${project.title} Project Preview`}
-                className="h-full w-full object-cover transition-transform group-hover:scale-105"
+                width={1280}
+                height={720}
+                className="h-full w-full transition-transform group-hover:scale-105"
               />
             </div>
             <div className="p-6">
