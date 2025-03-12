@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import CustomImage from '@/components/CustomImage';
+import CustomImage from "@/components/ui/Image";
+import { JSX } from "react";
 
 const projects = [
   {
