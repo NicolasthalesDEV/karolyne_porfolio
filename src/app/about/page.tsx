@@ -1,7 +1,3 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { Download } from "lucide-react"
-
 export default function AboutPage() {
   // Skills data
   const skills = [
