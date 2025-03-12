@@ -1,22 +1,19 @@
-import Link from "next/link"
-import { ArrowRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import CustomImage from "@/components/ui/Image";
+import { JSX } from "react";
 
-export default function Home() {
+export default function Home(): JSX.Element {
   return (
     <main className="flex min-h-screen flex-col">
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center px-4 py-24 md:py-32 text-center">
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-          <span className="text-primary">Karolyne Costa</span>  – Product Designer | UX/UI
+          <span className="text-primary">Karolyne Costa</span> – Product Designer | UX/UI
         </h1>
         <p className="mt-6 text-xl text-muted-foreground max-w-2xl">
-        Sou Product Designer com experiência em UX/UI, pesquisa e
-        estratégia digital. Meu foco é criar produtos intuitivos e eficientes, alinhando as
-        necessidades dos usuários aos objetivos do negócio. Acredito que o design vai além da
-        estética – ele deve resolver problemas, otimizar fluxos e proporcionar experiências
-        impactantes.
-
+          Sou Product Designer com experiência em UX/UI, pesquisa e estratégia digital. Meu foco é criar produtos intuitivos e eficientes, alinhando as necessidades dos usuários aos objetivos do negócio. Acredito que o design vai além da estética – ele deve resolver problemas, otimizar fluxos e proporcionar experiências impactantes.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 mt-10">
           <Button asChild size="lg">
@@ -38,10 +35,12 @@ export default function Home() {
             {/* iFrete Project Card */}
             <div className="group rounded-lg overflow-hidden border bg-card text-card-foreground shadow transition-all hover:shadow-lg">
               <div className="aspect-video w-full overflow-hidden bg-muted">
-                <img
-                  srcSet="/images/imagem.png"
+                <CustomImage
+                  src="/images/imagem.png"
                   alt="iFrete Project Preview"
-                  className="h-full w-full object-cover transition-transform group-hover:scale-105"
+                  width={1280}
+                  height={720}
+                  className="h-full w-full transition-transform group-hover:scale-105"
                 />
               </div>
               <div className="p-6">
@@ -58,10 +57,12 @@ export default function Home() {
             {/* Verdano Project Card */}
             <div className="group rounded-lg overflow-hidden border bg-card text-card-foreground shadow transition-all hover:shadow-lg">
               <div className="aspect-video w-full overflow-hidden bg-muted">
-                <img
+                <CustomImage
                   src="/images/imagem2.png"
                   alt="Verdano Project Preview"
-                  className="h-full w-full object-cover transition-transform group-hover:scale-105"
+                  width={1280}
+                  height={720}
+                  className="h-full w-full transition-transform group-hover:scale-105"
                 />
               </div>
               <div className="p-6">
@@ -83,6 +84,5 @@ export default function Home() {
         </div>
       </section>
     </main>
-  )
+  );
 }
-
