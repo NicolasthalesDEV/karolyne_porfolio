@@ -9,7 +9,7 @@ const projects = [
     id: "ifrete",
     title: "iFrete",
     description: "Aplicativo de transporte sob demanda para móveis e itens volumosos",
-    image: "/images/imagem7.png",
+    image: "/images/imagem12.png",
   },
   {
     id: "verdano",
