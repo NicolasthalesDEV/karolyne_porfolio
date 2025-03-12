@@ -1,4 +1,5 @@
 import { CaseStudySection } from "@/components/ui/CaseStudy/case-study-section";
+import CustomImage from "@/components/ui/Image";
 
 export default function IFreteCaseStudy() {
   return (
@@ -9,6 +10,12 @@ export default function IFreteCaseStudy() {
         <p className="text-xl text-muted-foreground mb-6">
           O iFrete é um aplicativo de transporte sob demanda para móveis e itens volumosos, oferecendo uma alternativa acessível e conveniente aos serviços de mudança tradicionais. O objetivo era criar uma experiência intuitiva, permitindo que os usuários agendassem transportes de forma simples e eficiente, como em aplicativos de ride-sharing.
         </p>
+      </div>
+
+      <div className="flex justify-center gap-4 my-4">
+        <CustomImage src="/images/imagem4.PNG" alt="Imagem adicional 1" width={400} height={250} className="rounded-lg shadow-md" />
+        <CustomImage src="/images/imagem5.PNG" alt="Imagem adicional 2" width={400} height={250} className="rounded-lg shadow-md" />
+        <CustomImage src="/images/imagem6.PNG" alt="Imagem adicional 2" width={400} height={250} className="rounded-lg shadow-md" />
       </div>
 
       {/* Challenge and Research */}
