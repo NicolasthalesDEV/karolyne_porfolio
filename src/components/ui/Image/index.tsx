@@ -23,10 +23,10 @@ export default function CustomImage({
       alt={alt}
       width={width}
       height={height}
-      className={className}
       priority={priority}
       quality={75}
-      sizes="(max-width: 768px) 100vw, 50vw"
+      sizes="100vw"
+      className={className}
       style={{ objectFit: 'cover' }}
     />
   );

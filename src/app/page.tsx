@@ -36,7 +36,7 @@ export default function Home(): JSX.Element {
             <div className="group rounded-lg overflow-hidden border bg-card text-card-foreground shadow transition-all hover:shadow-lg">
               <div className="aspect-video w-full overflow-hidden bg-muted">
                 <CustomImage
-                  src="/images/imagem.png"
+                  src="/images/imagem.PNG"
                   alt="iFrete Project Preview"
                   width={1280}
                   height={720}
@@ -58,7 +58,7 @@ export default function Home(): JSX.Element {
             <div className="group rounded-lg overflow-hidden border bg-card text-card-foreground shadow transition-all hover:shadow-lg">
               <div className="aspect-video w-full overflow-hidden bg-muted">
                 <CustomImage
-                  src="/images/imagem2.png"
+                  src="/images/imagem2.PNG"
                   alt="Verdano Project Preview"
                   width={1280}
                   height={720}
