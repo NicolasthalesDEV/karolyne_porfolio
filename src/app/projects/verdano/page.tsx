@@ -18,7 +18,7 @@ export default function IFreteCaseStudy(): JSX.Element {
 
       {/* Imagem maior */}
       <div className="flex justify-center my-8">
-        <CustomImage src="/images/imagem3.PNG" alt="Imagem adicional grande" width={800} height={500} className="rounded-lg shadow-md" />
+        <CustomImage src="/images/imagem3.PNG" alt="Imagem adicional grande" width={800} height={500} className="rounded-lg shadow-md w-full max-w-4xl h-auto" />
       </div>
 
       {/* Challenge and Research */}
