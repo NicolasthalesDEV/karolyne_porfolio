@@ -1,15 +1,15 @@
 export default function AboutPage() {
   // Skills data
   const skills = [
-    { category: "Design", items: ["UI/UX Design", "Wireframing", "Prototyping", "User Research", "Design Systems"] },
-    { category: "Tools", items: ["Figma", "Adobe XD", "Sketch", "InVision", "Principle"] }
+    { category: "Design", items: ["Design Thinking", "Wireframing", "Prototyping", "User Research", "Design Systems"] },
+    { category: "Tools", items: ["Figma", "Adobe XD", "Sketcher", "Illustrator", "Jira"] }
   ]
 
   return (
     <main className="max-w-full mx-auto bg-white rounded-lg pt-5">
       {/* Header */}
       <div className="max-w-3xl mx-auto text-center mb-16 pt-5">
-        <h1 className="text-4xl font-bold tracking-tight mb-4">Sobre Mim | Minha Jornada no Design</h1>
+        <h1 className="text-4xl font-bold tracking-tight mb-4">Minha Jornada no Design</h1>
       </div>
 
       {/* Profile Section */}

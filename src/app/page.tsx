@@ -13,7 +13,7 @@ export default function Home(): JSX.Element {
           <span className="text-primary">Karolyne Costa</span> – Product Designer | UX/UI
         </h1>
         <p className="mt-6 text-xl text-muted-foreground max-w-2xl">
-          Sou Product Designer com experiência em UX/UI, pesquisa e estratégia digital. Meu foco é criar produtos intuitivos e eficientes, alinhando as necessidades dos usuários aos objetivos do negócio. Acredito que o design vai além da estética – ele deve resolver problemas, otimizar fluxos e proporcionar experiências impactantes.
+        Sou UX/UI Design com experiencia em product design, pesquisa e estratégia digital. Meu foco é criar produtos intuitivos e eficientes, alinhando as necessidades dos usuários aos objetivos do negócio. Acredito que o design vai além da estética – ele deve resolver problemas, otimizar fluxos e proporcionar experiências impactantes.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 mt-10">
           <Button asChild size="lg">
